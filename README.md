@@ -1,97 +1,127 @@
-# Transaction Processing System  
-### Mini Project – 24UCS271 Lab
+Bank Account Management System
+Mini Project – 24UCS271 Lab
+Objective
 
----
+This mini project focuses on understanding, modifying, and extending a Bank Account Management System program using the C programming language. Students are expected to analyze the existing code, improve the logic, optimize performance, and implement additional functionalities while following good coding practices.
 
-## Objective
-This mini project focuses on understanding, modifying, and extending a **Transaction Processing System** program. Students are expected to analyze existing code, improve it, and add new functionalities while following good coding practices.
+Reference Code
 
----
-
-## Reference Code
 Review the given source code before starting the project:
 
-🔗 https://replit.com/@ashokb/Unit5Programs#trans.c
+🔗 credit.c – Random Access File Processing Program
 
----
+Tasks to be Performed
+Compile and execute the given C program.
+Test all existing functionalities:
+Add account
+Update account
+Delete account
+Generate text file
+Add a new account and regenerate the accounts.txt file.
+Verify whether the generated output is correct.
+Identify and fix logical errors in the code.
+Add new functionalities:
+Display all account information
+Search account by account number
+Calculate total bank balance
+Optimize the program for:
+Better memory usage
+Faster file processing
+Improved code readability
+Features Added
+Existing Features
+Add new customer account
+Update account balance
+Delete account
+Store records in binary file
+Generate formatted text file
+New Features Added
+Display all accounts
+Search account details
+Total balance calculation
+Better menu-driven interface
+Improved error handling
+Safer file reading using fread()
+User-friendly output messages
+Logical Errors Fixed
+Problem	Solution
+Using while(!feof())	Replaced with while(fread())
+Poor menu readability	Improved menu format
+Missing validation messages	Added error handling
+Hard-to-read code	Added comments and formatting
+Optimization Performed
+Memory Optimization
+Reused structures efficiently
+Reduced unnecessary variables
+Speed Optimization
+Used direct random-access file operations
+Reduced repeated file scans
+Code Improvement
+Functional decomposition used
+Separate functions for each operation
+Better modular programming
+Evaluation Criteria
+1. General (25 Points)
+Activity	Points	Remarks
+Self-effort	5	Individual implementation
+Turnaround Time	10	Early submission gets more marks
+Project Demo	10	Demo using repl.it or local compiler
+2. Comprehension (15 Points)
+Activity	Points
+Domain Knowledge	5
+Added Functionality	5
+Code Understanding	5
+3. Modification (35 Points)
+Activity	Points
+Code Improvement	5
+Functional Decomposition	10
+Memory Optimization	10
+Speed Optimization	10
+4. Innovation (45 Points)
+Activity	Points
+New Features	5
+Requirement to Code Translation	10
+Error Handling	10
+Advanced Functionalities	20
+Total Marks
 
-## Tasks to be Performed
+120 Marks
+➡ Reduced to 20 Marks for final evaluation
 
-1. Compile and run the given executable code.
-2. Perform your own testing of the program.
-3. Add a new account detail and regenerate the `accounts.txt` file.
-   - Inspect the contents of the file.
-   - Verify whether the output matches your expectations.
-4. Identify and fix any logical errors in the program.
-5. Add new functionality  
-   - Example: Listing all account information.
-6. Optimize the program for better performance and efficiency.
+Rules for Mini Project Implementation
+Maximum of 2 attempts allowed for project presentation.
+Best score among two attempts will be considered.
+Students may discuss concepts but should write their own code.
+Copying code from others is strictly prohibited.
+Plagiarism will result in zero marks.
+Software Requirements
+GCC Compiler / Turbo C / CodeBlocks / VS Code
+Repl.it Online Compiler
+Operating System: Windows / Linux
+Output Files Used
+File Name	Purpose
+credit.dat	Binary random-access file
+accounts.txt	Formatted text output file
+Future Enhancements
+Password-protected login
+Transaction history
+ATM simulation
+Interest calculation
+Sorting customer records
+Mini bank management dashboard
+Conclusion
 
----
+This project helped in understanding:
 
-## Evaluation Criteria
+File handling in C
+Random-access file processing
+Structures in C
+Modular programming
+Error handling
+Code optimization techniques
 
-### 1. General (25 Points)
-| Activity | Points | Remarks |
-|--------|--------|--------|
-| Self-effort | 5 | Student’s own assessment of hours spent (no copying or external references) |
-| Turnaround Time | 10 | Provide three time slots; earlier demo gets more points |
-| Project Demo | 10 | Demo must be done using repl.it |
+The enhanced system provides a simple and efficient banking application with additional functionalities and improved performance.
 
----
-
-### 2. Comprehension (15 Points)
-| Activity | Points |
-|--------|--------|
-| Domain Knowledge | 5 |
-| Added Functionality (Ideas) | 5 |
-| Code Comprehension | 5 |
-
----
-
-### 3. Modification (35 Points)
-| Activity | Points |
-|--------|--------|
-| Code Improvement | 5 |
-| Functional Decomposition | 10 |
-| Refactoring for Memory Usage | 10 |
-| Refactoring for Speed | 10 |
-
----
-
-### 4. Innovation (45 Points)
-| Activity | Points |
-|--------|--------|
-| New Features / User Stories (Faculty specified) | 5 |
-| Requirement to Code Translation | 10 |
-| Added Functionality (Simple – Error Handling) | 10 |
-| Added Functionality (Advanced) | 20 |
-
----
-
-## Total Marks
-**120 Marks**  
-➡ Reduced to **20 Marks** for final evaluation
-
----
-
-## Rules for Mini Project Implementation
-
-- Maximum of **2 attempts** will be given for project presentation.
-- If dissatisfied with the first score, a second attempt is allowed.
-- The **best score** out of the two attempts will be considered final.
-- Discussion and clarification among students are allowed.
-- **Copying or borrowing code is strictly prohibited.**
-- Violation of plagiarism rules will result in a **zero (0 / NULL) score**.
-
----
-
-## Additional Reference
-🔗 http://j.mp/transactionUnit5  
-🔗 https://htmlpreview.github.io/?https://github.com/kgisl/makesite/blob/master/content/blog/2021-06-23-unit5-mini-project.md.html
-🔗 https://github.com/24UCS271-MiniProject/miniProjectSourceCode/
-
----
-
-**Date:** 31/01/2026  
-**Time:** 06:42
+Date: 11/05/2026
+Subject: C Programming Laboratory
+Project Title: Bank Account Management System Using Random Access files
